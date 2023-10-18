@@ -1,4 +1,5 @@
 #!/bin/bash
+#创建听课容器5902-5906
 docker network create --subnet=172.117.0.0/16 chromenet
 for j in {2..6}
 do

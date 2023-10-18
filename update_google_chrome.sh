@@ -1,4 +1,5 @@
 #!/bin/bash
+#更新容器chrome2-chrome6 的浏览器
 for i in {2..6}
 do
  docker exec -it --user root  chrome$i-172.117.0.$i /bin/bash -c "dpkg -i /home/chrome/Downloads/*"
